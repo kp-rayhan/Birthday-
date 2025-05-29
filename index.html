@@ -8,13 +8,6 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HZBKTMWJ21"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-HZBKTMWJ21');
-</script>
 </head>
 <body>
   <button id="startBtn">Start Surprise</button>
@@ -29,8 +22,8 @@ gtag('config', 'G-HZBKTMWJ21');
 
     <div id="proposal" class="hidden">
       <p>You're not just someone I like—you're the person my heart keeps choosing, even in silence. I want to walk beside you, not just today, but in every tomorrow. Will you let me stay with you?</p>
-      <button onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'Yes'});">Yes</button>
-      <button onclick="gtag('event', 'click', {'event_category': 'Button', 'event_label': 'No'});">No</button>
+      <button id="yesBtn">Yes</button>
+      <button id="noBtn">No</button>
     </div>
 
     <div id="response" class="hidden"></div>
