@@ -40,7 +40,7 @@ function showBirthdayAnimation() {
 
   gsap.from("#happy", { x: -500, opacity: 0, duration: 1 });
   gsap.from("#birthday", { x: 500, opacity: 0, duration: 1, delay: 1 });
-  //gsap.from("#maliha", { scale: 0, opacity: 0, duration: 1, delay: 2 });
+  gsap.from("#maliha", { scale: 0, opacity: 0, duration: 1, delay: 2 });
 
   setTimeout(() => {
     birthdayMessage.classList.add('hidden');
