@@ -73,7 +73,7 @@ function showProposal() {
       }
       logUserChoice('Yes');
       document.getElementById('proposal').classList.add('hidden');
-      document.getElementById('response').innerHTML = "<h2>🥰 You just made me the happiest person alive. Thank you for saying yes—not just to me, but to everything that’s ahead. I always try to hold your heart with care, to walk beside you in every season, and to make this journey full of love, laughter, and meaning.It’s me, Rayhan, who is waiting for your message...</h2>";
+      document.getElementById('response').innerHTML = "<h2>🥰 You just made me the happiest person alive. Thank you for saying yes—not just to me, but to everything that’s ahead. I always try to hold your heart with care, to walk beside you in every season, and to make this journey full of love, laughter, and meaning.It’s me, Jahid, who is waiting for your message...</h2>";
       document.getElementById('response').classList.remove('hidden');
     };
 
@@ -87,7 +87,7 @@ function showProposal() {
       }
       logUserChoice('No');
       document.getElementById('proposal').classList.add('hidden');
-      document.getElementById('response').innerHTML = "<h2>💔 It's okay... just remember: the strongest hearts still care in silence. It’s me, Rayhan, a whisper in the wind you’ll never quite forget.Though our stars may not align this time,I’ll carry your light gently in my heart,A silent melody that never fades...</h2>";
+      document.getElementById('response').innerHTML = "<h2>💔 It's okay... just remember: the strongest hearts still care in silence. It’s me, Jahid, a whisper in the wind you’ll never quite forget.Though our stars may not align this time,I’ll carry your light gently in my heart,A silent melody that never fades...</h2>";
       document.getElementById('response').classList.remove('hidden');
     };
 }
