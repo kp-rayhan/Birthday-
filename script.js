@@ -69,6 +69,7 @@ function showProposal() {
           'event_category': 'Button',
           'event_label': 'Yes',
           'device_info': navigator.userAgent
+          
         });
       }
       logUserChoice('Yes');
@@ -82,7 +83,8 @@ function showProposal() {
         gtag('event', 'proposal_response', {
           'event_category': 'Button',
           'event_label': 'No',
-          'device_info': navigator.userAgent
+          'device_info': navigator.userAgent,
+          'debug_mode': true
         });
       }
       logUserChoice('No');
@@ -93,9 +95,10 @@ function showProposal() {
 }
 
 window.onload = function() {
-  document.getElementById('startBtn').addEventListener('click', function() {
+  // Hide the start button after 2 seconds and start the countdown automatically
+  setTimeout(function() {
     document.getElementById('startBtn').style.display = 'none';
     countdownEl.classList.remove('hidden');
     startCountdown();
-  });
+  }, 1000); // 2000ms = 2 seconds
 };
